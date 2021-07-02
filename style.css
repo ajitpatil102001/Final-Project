@@ -1,0 +1,105 @@
+
+.mid{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+   
+}
+.mid video{
+    width: 100%;
+    height: 100vh;
+    pointer-events: none;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20%;
+    
+    transform: translate(-50%,-50%);
+}
+.hero{
+    
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.hero h2{
+    margin-left: 10%;
+    font-family:sans-serif;
+    font-weight: 900;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    
+}
+.hero span{
+    color: yellow;
+}
+.hero p{
+    font-weight: 700;
+    font-size: 17px;
+    width: 110%;
+    color: white;
+   text-align: center;
+   
+}
+.hero a{
+    border-radius: 30px;
+    padding: 0.6rem 0.8rem;
+    font-weight: 900;
+    margin-top: 30px;
+    background: white;
+    text-decoration: none;
+    margin-left: 8%;
+   
+   
+}
+.navbar{
+    background: black;
+    height: 80px;
+}
+.navbar .navbar-brand{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+
+}
+.navbar .navbar-brand span{
+    color: yellow;
+}
+.formhead{
+background: chartreuse;
+border-radius: 100%;
+
+text-align: center;
+}
+.aboutus{
+    padding-top: 5%;
+    height: 100%;
+    background: black;
+    padding-bottom: 40px;
+    border-radius: 30%;
+    
+}
+.headingabout{
+    margin-bottom: 20px;
+    padding: 20px 30px;
+   
+}
+.headingabout  li{
+    text-decoration: none; 
+    list-style: none; 
+}
+.jumbo{
+    background: black;
+    color: white;
+    font-weight: 900;
+   
+}
+.Contactus{
+    background: tomato;
+}
